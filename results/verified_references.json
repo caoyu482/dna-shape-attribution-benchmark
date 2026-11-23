@@ -1,0 +1,568 @@
+{
+  "generated_at": "2026-11-21T18:52:00+08:00",
+  "verification_method": "Live search_web DOI/PMID/JMLR/NeurIPS metadata lookup",
+  "references": {
+    "rohs2009nature": {
+      "authors": "Rohs, Remo; West, Sean M.; Sosinsky, Alona; Liu, Peng; Mann, Richard S.; Honig, Barry",
+      "title": "The role of DNA shape in protein-DNA recognition",
+      "venue": "Nature",
+      "year": 2009,
+      "volume": "461",
+      "issue": "7268",
+      "pages": "1248-1253",
+      "doi": "10.1038/nature08473",
+      "pmid": "19865164"
+    },
+    "rohs2010arb": {
+      "authors": "Rohs, Remo; Jin, Xiangshu; West, Sean M.; Joshi, Rohit; Honig, Barry; Mann, Richard S.",
+      "title": "Origins of specificity in protein-DNA recognition",
+      "venue": "Annual Review of Biochemistry",
+      "year": 2010,
+      "volume": "79",
+      "pages": "233-269",
+      "doi": "10.1146/annurev-biochem-060408-091030",
+      "pmid": "20334529"
+    },
+    "joshi2007cell": {
+      "authors": "Joshi, Rohit; Passner, Jonathan M.; Rohs, Remo; Jain, Rinku; Sosinsky, Alona; Crickmore, Michael A.; Jacob, Vinitha; Aggarwal, Aneel K.; Honig, Barry; Mann, Richard S.",
+      "title": "Functional specificity of a Hox protein mediated by the recognition of minor groove structure",
+      "venue": "Cell",
+      "year": 2007,
+      "doi": "10.1016/j.cell.2007.09.024",
+      "pmid": "17976784"
+    },
+    "slattery2011cell": {
+      "authors": "Slattery, Matthew; Riley, Todd; Liu, Peng; Abe, Namiko; Gomez-Alcala, Pilar; Dror, Iris; Zhou, Tianyin; Rohs, Remo; Honig, Barry; Bussemaker, Harmen J.; Mann, Richard S.",
+      "title": "Cofactor binding evokes latent differences in DNA binding specificity between Hox proteins",
+      "venue": "Cell",
+      "year": 2011,
+      "volume": "147",
+      "issue": "6",
+      "pages": "1270-1282",
+      "doi": "10.1016/j.cell.2011.10.053",
+      "pmid": "22153072"
+    },
+    "zhou2013nar": {
+      "authors": "Zhou, Tianyin; Yang, Lin; Lu, Yan; Dror, Iris; Dantas Machado, Ana Carolina; Ghane, Tahereh; Di Felice, Rosa; Rohs, Remo",
+      "title": "DNAshape: a method for the high-throughput prediction of DNA structural features on a genomic scale",
+      "venue": "Nucleic Acids Research",
+      "year": 2013,
+      "volume": "41",
+      "issue": "W1",
+      "pages": "W56-W62",
+      "doi": "10.1093/nar/gkt437",
+      "pmid": "23703209"
+    },
+    "gordan2013cellrep": {
+      "authors": "Gordân, Raluca; Shen, Ning; Dror, Iris; Zhou, Tianyin; Horton, John; Rohs, Remo; Bulyk, Martha L.",
+      "title": "Genomic regions flanking E-box binding sites influence DNA binding specificity of bHLH transcription factors through DNA shape",
+      "venue": "Cell Reports",
+      "year": 2013,
+      "volume": "3",
+      "pages": "1093-1104",
+      "doi": "10.1016/j.celrep.2013.03.014",
+      "pmid": "23562153"
+    },
+    "mordelet2013bioinf": {
+      "authors": "Mordelet, Fantine; Horton, John; Hartemink, Alexander J.; Engelhardt, Barbara E.; Gordân, Raluca",
+      "title": "Stability selection for regression-based models of transcription factor-DNA binding specificity",
+      "venue": "Bioinformatics",
+      "year": 2013,
+      "volume": "29",
+      "issue": "13",
+      "pages": "i117-i125",
+      "doi": "10.1093/bioinformatics/btt221",
+      "pmid": "23812975"
+    },
+    "yang2014nar": {
+      "authors": "Yang, Lin; Zhou, Tianyin; Dror, Iris; Mathelier, Anthony; Wasserman, Wyeth W.; Gordân, Raluca; Rohs, Remo",
+      "title": "TFBSshape: a motif database for DNA shape features of transcription factor binding sites",
+      "venue": "Nucleic Acids Research",
+      "year": 2014,
+      "doi": "10.1093/nar/gkt1087",
+      "pmid": "24214955"
+    },
+    "chiu2015nar": {
+      "authors": "Chiu, Tsu-Pei; Yang, Lin; Zhou, Tianyin; Main, Bradley J.; Parker, Stephen C. J.; Nuzhdin, Sergey V.; Tullius, Thomas D.; Rohs, Remo",
+      "title": "GBshape: a genome browser database for DNA shape annotations",
+      "venue": "Nucleic Acids Research",
+      "year": 2015,
+      "volume": "43",
+      "issue": "Database issue",
+      "pages": "D103-D109",
+      "doi": "10.1093/nar/gku977",
+      "pmid": "25326329"
+    },
+    "abe2015cell": {
+      "authors": "Abe, Namiko; Dror, Iris; Yang, Lin; Slattery, Matthew; Zhou, Tianyin; Bussemaker, Harmen J.; Rohs, Remo; Mann, Richard S.",
+      "title": "Deconvolving the recognition of DNA shape from sequence",
+      "venue": "Cell",
+      "year": 2015,
+      "volume": "161",
+      "issue": "2",
+      "pages": "307-318",
+      "doi": "10.1016/j.cell.2015.02.008",
+      "pmid": "25843630"
+    },
+    "zhou2015pnas": {
+      "authors": "Zhou, Tianyin; Shen, Ning; Yang, Lin; Abe, Namiko; Horton, John; Mann, Richard S.; Bussemaker, Harmen J.; Gordân, Raluca; Rohs, Remo",
+      "title": "Quantitative modeling of transcription factor binding specificities using DNA shape",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "year": 2015,
+      "volume": "112",
+      "issue": "15",
+      "pages": "4654-4659",
+      "doi": "10.1073/pnas.1422023112",
+      "pmid": "25775564"
+    },
+    "dror2015genome": {
+      "authors": "Dror, Iris; Golan, Tamar; Levy, Carmit; Rohs, Remo; Mandel-Gutfreund, Yael",
+      "title": "A widespread role of the motif environment in transcription factor binding across diverse protein families",
+      "venue": "Genome Research",
+      "year": 2015,
+      "doi": "10.1101/gr.184671.114",
+      "pmid": "26160164"
+    },
+    "chiu2016bioinf": {
+      "authors": "Chiu, Tsu-Pei; Comoglio, Federico; Zhou, Tianyin; Yang, Lin; Paro, Renato; Rohs, Remo",
+      "title": "DNAshapeR: an R/Bioconductor package for DNA shape prediction and feature encoding",
+      "venue": "Bioinformatics",
+      "year": 2016,
+      "volume": "32",
+      "issue": "8",
+      "pages": "1211-1213",
+      "doi": "10.1093/bioinformatics/btv735",
+      "pmid": "26668005"
+    },
+    "mathelier2016cels": {
+      "authors": "Mathelier, Anthony; Xin, Bei-Bei; Chiu, Tsu-Pei; Yang, Lin; Rohs, Remo; Wasserman, Wyeth W.",
+      "title": "DNA shape features improve transcription factor binding site predictions in vivo",
+      "venue": "Cell Systems",
+      "year": 2016,
+      "volume": "3",
+      "issue": "3",
+      "pages": "278-286.e4",
+      "doi": "10.1016/j.cels.2016.07.001",
+      "pmid": "27593844"
+    },
+    "yang2017msb": {
+      "authors": "Yang, Lin; Orenstein, Yaron; Jolma, Arttu; Yin, Yimeng; Taipale, Jussi; Shamir, Ron; Rohs, Remo",
+      "title": "Transcription factor family-specific DNA shape readout revealed by quantitative specificity models",
+      "venue": "Molecular Systems Biology",
+      "year": 2017,
+      "volume": "13",
+      "pages": "910",
+      "doi": "10.15252/msb.20167238",
+      "pmid": "28167566"
+    },
+    "chiu2017nar": {
+      "authors": "Chiu, Tsu-Pei; Rao, Satyanarayan; Mann, Richard S.; Honig, Barry; Rohs, Remo",
+      "title": "Genome-wide prediction of minor-groove electrostatic potential enables biophysical modeling of protein-DNA binding",
+      "venue": "Nucleic Acids Research",
+      "year": 2017,
+      "volume": "45",
+      "issue": "21",
+      "pages": "12565-12576",
+      "doi": "10.1093/nar/gkx915",
+      "pmid": "29040720"
+    },
+    "li2017nar": {
+      "authors": "Li, Jinsen; Sagendorf, Jared M.; Chiu, Tsu-Pei; Pasi, Marco; Perez, Alberto; Rohs, Remo",
+      "title": "Expanding the repertoire of DNA shape features for genome-scale studies of transcription factor binding",
+      "venue": "Nucleic Acids Research",
+      "year": 2017,
+      "volume": "45",
+      "issue": "22",
+      "pages": "12877-12887",
+      "doi": "10.1093/nar/gkx1145",
+      "pmid": "29186596"
+    },
+    "rube2018msb": {
+      "authors": "Rube, H. Tomas; Rastogi, Chaitanya; Kribelbauer, Judith F.; Bussemaker, Harmen J.",
+      "title": "A unified approach for quantifying and interpreting DNA shape readout by transcription factors",
+      "venue": "Molecular Systems Biology",
+      "year": 2018,
+      "doi": "10.15252/msb.20177902",
+      "pmid": "29472273"
+    },
+    "rastogi2018pnas": {
+      "authors": "Rastogi, Chaitanya; Rube, H. Tomas; Kribelbauer, Judith F.; Crocker, Justin; Loker, Robert E.; Martini, Giulia D.; Laptenko, Olga; Freed-Pastor, William A.; Prives, Carol; Stern, David L.; Mann, Richard S.; Bussemaker, Harmen J.",
+      "title": "Accurate and sensitive quantification of protein-DNA binding affinity",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "year": 2018,
+      "volume": "115",
+      "issue": "16",
+      "pages": "E3692-E3701",
+      "doi": "10.1073/pnas.1714376115",
+      "pmid": "29610332"
+    },
+    "rossi2018genome": {
+      "authors": "Rossi, Matthew J.; Lai, William K. M.; Pugh, B. Franklin",
+      "title": "Genome-wide determinants of sequence-specific DNA binding of general regulatory factors",
+      "venue": "Genome Research",
+      "year": 2018,
+      "volume": "28",
+      "issue": "4",
+      "pages": "497-508",
+      "doi": "10.1101/gr.229518.117",
+      "pmid": "29563167"
+    },
+    "shen2018cels": {
+      "authors": "Shen, Ning; Zhao, Jingkang; Schipper, Joshua L.; Zhang, Yuning; Bepler, Tristan; Leehr, Dan; Bradley, John; Horton, John; Lapp, Hilmar; Gordân, Raluca",
+      "title": "Divergence in DNA Specificity among Paralogous Transcription Factors Contributes to Their Differential In Vivo Binding",
+      "venue": "Cell Systems",
+      "year": 2018,
+      "volume": "6",
+      "pages": "470-483.e8",
+      "doi": "10.1016/j.cels.2018.02.009",
+      "pmid": "29605182"
+    },
+    "kribelbauer2019annrev": {
+      "authors": "Kribelbauer, Judith F.; Rastogi, Chaitanya; Bussemaker, Harmen J.; Mann, Richard S.",
+      "title": "Low-Affinity Binding Sites and the Transcription Factor Specificity Paradox in Eukaryotes",
+      "venue": "Annual Review of Cell and Developmental Biology",
+      "year": 2019,
+      "volume": "35",
+      "pages": "357-379",
+      "doi": "10.1146/annurev-cellbio-100617-062719",
+      "pmid": "31283382"
+    },
+    "chiu2020nar": {
+      "authors": "Chiu, Tsu-Pei; Xin, Beibei; Markarian, Nicholas; Wang, Yingfei; Rohs, Remo",
+      "title": "TFBSshape: an expanded motif database for DNA shape features of transcription factor binding sites",
+      "venue": "Nucleic Acids Research",
+      "year": 2020,
+      "volume": "48",
+      "issue": "D1",
+      "pages": "D246-D255",
+      "doi": "10.1093/nar/gkz970",
+      "pmid": "31675402"
+    },
+    "afek2020nature": {
+      "authors": "Afek, Ariel; Shi, Honglue; Rangadurai, Atul; Sahay, Harshit; Senitzki, Alon; Xhani, Suela; Fang, Mimi; Salinas, Raul; Mielko, Zachery; Pufall, Miles A.; Poon, Gregory M. K.; Haran, Tali E.; Schumacher, Maria A.; Al-Hashimi, Hashim M.; Gordân, Raluca",
+      "title": "DNA mismatches reveal conformational penalties in protein-DNA recognition",
+      "venue": "Nature",
+      "year": 2020,
+      "doi": "10.1038/s41586-020-2843-2",
+      "pmid": "33087930"
+    },
+    "sielemann2021natcomm": {
+      "authors": "Sielemann, Janik; Wulf, Dominik; Schmidt, Romy; Bräutigam, Andrea",
+      "title": "Local DNA shape is a general principle of transcription factor binding specificity in Arabidopsis thaliana",
+      "venue": "Nature Communications",
+      "year": 2021,
+      "volume": "12",
+      "pages": "6549",
+      "doi": "10.1038/s41467-021-26861-5",
+      "pmid": "34777595"
+    },
+    "rube2022nbt": {
+      "authors": "Rube, H. Tomas; Rastogi, Chaitanya; Feng, Siqian; Kribelbauer, Judith F.; Li, Allyson; Becerra, Basheer; Melo, Lucas A. N.; Do, Bach Viet; Li, Xiaoting; Adam, Hammaad H.; Shah, Neel H.; Mann, Richard S.; Bussemaker, Harmen J.",
+      "title": "Prediction of protein-ligand binding affinity from sequencing data with interpretable machine learning",
+      "venue": "Nature Biotechnology",
+      "year": 2022,
+      "volume": "40",
+      "pages": "1520-1527",
+      "doi": "10.1038/s41587-022-01307-0",
+      "pmid": "35606422"
+    },
+    "li2024natcomm": {
+      "authors": "Li, Jinsen; Chiu, Tsu-Pei; Rohs, Remo",
+      "title": "Predicting DNA structure using a deep learning method",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "volume": "15",
+      "pages": "1243",
+      "doi": "10.1038/s41467-024-45191-5",
+      "pmid": "38336958"
+    },
+    "li2024nar": {
+      "authors": "Li, Jinsen; Rohs, Remo",
+      "title": "Deep DNAshape Webserver: Prediction and Real-Time Visualization of DNA Shape Considering Extended k-mers",
+      "venue": "Nucleic Acids Research",
+      "year": 2024,
+      "volume": "52",
+      "issue": "W1",
+      "pages": "W7-W12",
+      "doi": "10.1093/nar/gkae433",
+      "pmid": "38801070"
+    },
+    "mitra2024natmeth": {
+      "authors": "Mitra, Raktim; Li, Jinsen; Sagendorf, Jared M.; Jiang, Yibei; Cohen, Ari S.; Chiu, Tsu-Pei; Glasscock, Cameron J.; Rohs, Remo",
+      "title": "Geometric deep learning of protein-DNA binding specificity",
+      "venue": "Nature Methods",
+      "year": 2024,
+      "volume": "21",
+      "issue": "9",
+      "pages": "1674-1683",
+      "doi": "10.1038/s41592-024-02372-w",
+      "pmid": "39164506"
+    },
+    "kock2024natcomm": {
+      "authors": "Kock, Kian Hong; Kimes, Patrick K.; Gisselbrecht, Stephen S.; Inukai, Satomi; Phanor, Sharon K.; Anderson, Joshua L.; Ramakrishnan, Gayathri; Lipper, Caroline H.; Song, Dongbo; Kurland, Jacob V.; Rogers, Julia M.; Jeong, Richard; Blacklow, Stephen C.; Irizarry, Rafael A.; Bulyk, Martha L.",
+      "title": "DNA binding analysis of rare variants in homeodomains reveals homeodomain specificity-determining residues",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-47396-0",
+      "pmid": "38600112"
+    },
+    "liu2025nar": {
+      "authors": "Liu, Shaoxun; Gomez-Alcala, Pilar; Leemans, Christ; Glassford, William J.; Melo, Lucas A. N.; Lu, Xiang-Jun; Mann, Richard S.; Bussemaker, Harmen J.",
+      "title": "Predicting the DNA binding specificity of transcription factor mutants using family-level biophysically interpretable machine learning",
+      "venue": "Nucleic Acids Research",
+      "year": 2025,
+      "doi": "10.1093/nar/gkaf831",
+      "pmcid": "PMC12392098"
+    },
+    "berger2006nbt": {
+      "authors": "Berger, Michael F.; Philippakis, Anthony A.; Qureshi, Asim M.; He, Fei S.; Estep III, Paul W.; Bulyk, Martha L.",
+      "title": "Compact, universal DNA microarrays to comprehensively determine transcription-factor binding site specificities",
+      "venue": "Nature Biotechnology",
+      "year": 2006,
+      "volume": "24",
+      "pages": "1429-1435",
+      "doi": "10.1038/nbt1246",
+      "pmid": "16998473"
+    },
+    "berger2008cell": {
+      "authors": "Berger, Michael F.; Badis, Gwenael; Gehrke, Andrew R.; Talukder, Shaheynoor; Philippakis, Anthony A.; Peña-Castillo, Lourdes; Alleyne, Trevis M.; Mnaimneh, Sanie; Botvinnik, Olga B.; Chan, Esther T.; Khalid, Fawaz; Zhang, Wen; Newburger, Dana; Jaeger, Steven A.; Morris, Quaid D.; Bulyk, Martha L.; Hughes, Timothy R.",
+      "title": "Variation in Homeodomain DNA Binding Revealed by High-Resolution Analysis of Sequence Preferences",
+      "venue": "Cell",
+      "year": 2008,
+      "volume": "133",
+      "issue": "7",
+      "pages": "1266-1276",
+      "doi": "10.1016/j.cell.2008.05.024",
+      "pmid": "18585359"
+    },
+    "noyes2008cell": {
+      "authors": "Noyes, Marcus B.; Christensen, Ryan G.; Wakabayashi, Atsuya; Stormo, Gary D.; Brodsky, Michael H.; Wolfe, Scot A.",
+      "title": "Analysis of Homeodomain Specificities Allows the Family-wide Prediction of Preferred Recognition Sites",
+      "venue": "Cell",
+      "year": 2008,
+      "volume": "133",
+      "issue": "7",
+      "pages": "1277-1289",
+      "doi": "10.1016/j.cell.2008.05.023",
+      "pmid": "18585360"
+    },
+    "badis2009science": {
+      "authors": "Badis, Gwenael; Berger, Michael F.; Philippakis, Anthony A.; Talukder, Shaheynoor; Gehrke, Andrew R.; Jaeger, Savina A.; Chan, Esther T.; Metzler, Genita; Vedenko, Anastasia; Chen, Xiaoyu; Kuznetsov, Hanna; Wang, Chi-Fong; Coburn, David; Newburger, Daniel E.; Morris, Quaid; Hughes, Timothy R.; Bulyk, Martha L.",
+      "title": "Diversity and complexity in DNA recognition by transcription factors",
+      "venue": "Science",
+      "year": 2009,
+      "volume": "324",
+      "pages": "1720-1723",
+      "doi": "10.1126/science.1162327",
+      "pmid": "19443739"
+    },
+    "demasi2011nar": {
+      "authors": "De Masi, Federico; Grove, Claire A.; Vedenko, Anita; Alibés, Albert; Gisselbrecht, Sylvain S.; Serrano, Luis; Bulyk, Martha L.; Walhout, Albertha J. M.",
+      "title": "Using a structural and logics systems approach to infer bHLH DNA binding specificity determinants",
+      "venue": "Nucleic Acids Research",
+      "year": 2011,
+      "doi": "10.1093/nar/gkr070",
+      "pmid": "21459849"
+    },
+    "christensen2012bioinf": {
+      "authors": "Christensen, Ryan G.; Enuameh, Metewo Selase; Noyes, Marcus B.; Brodsky, Michael H.; Wolfe, Scot A.; Stormo, Gary D.",
+      "title": "Recognition models to predict DNA-binding specificities of homeodomain proteins",
+      "venue": "Bioinformatics",
+      "year": 2012,
+      "doi": "10.1093/bioinformatics/bts202",
+      "pmid": "22586111"
+    },
+    "chu2012genome": {
+      "authors": "Chu, S. W.; Noyes, M. B.; Christensen, R. G.; Pierce, B. G.; Zhu, L. J.; Weng, Z.; Stormo, G. D.; Wolfe, S. A.",
+      "title": "Exploring the DNA-recognition potential of homeodomains",
+      "venue": "Genome Research",
+      "year": 2012,
+      "doi": "10.1101/gr.139014.112",
+      "pmid": "22765548"
+    },
+    "jolma2013cell": {
+      "authors": "Jolma, Arttu; Yan, Jian; Whitington, Thomas; Toivonen, Jarkko; Nitta, Kazuhiro R.; Rastas, Pasi; Morgunova, Ekaterina; Enge, Martin; Taipale, Mikko; Wei, Gonghong; Palin, Kimmo; Vaquerizas, Juan M.; Vincentelli, Renaud; Luscombe, Nicholas M.; Hughes, Timothy R.; Lemaire, Patrick; Ukkonen, Esko; Kivioja, Teemu; Taipale, Jussi",
+      "title": "DNA-Binding Specificities of Human Transcription Factors",
+      "venue": "Cell",
+      "year": 2013,
+      "volume": "152",
+      "issue": "1-2",
+      "pages": "327-339",
+      "doi": "10.1016/j.cell.2012.12.009",
+      "pmid": "23332764"
+    },
+    "riley2014mmb": {
+      "authors": "Riley, Todd R.; Slattery, Matthew; Abe, Namiko; Rastogi, Chaitanya; Liu, Dahong; Mann, Richard S.; Bussemaker, Harmen J.",
+      "title": "SELEX-seq: a method for characterizing the complete repertoire of binding site preferences for transcription factor complexes",
+      "venue": "Methods in Molecular Biology",
+      "year": 2014,
+      "volume": "1196",
+      "pages": "255-278",
+      "doi": "10.1007/978-1-4939-1242-1_16",
+      "pmid": "25424755"
+    },
+    "weirauch2014cell": {
+      "authors": "Weirauch, Matthew T.; Yang, Allison; Albu, Mihai; Cote, Alina G.; Montenegro-Montero, Alejandro; Drewe, Petra; Najafabadi, Hamed S.; Lambert, Samantha A.; Mann, Ivana; Cook, Kevin; Zheng, Huaming; Hughes, Timothy R.",
+      "title": "Determination and Inference of Eukaryotic Transcription Factor Sequence Specificity",
+      "venue": "Cell",
+      "year": 2014,
+      "volume": "158",
+      "issue": "6",
+      "pages": "1431-1443",
+      "doi": "10.1016/j.cell.2014.08.009",
+      "pmid": "25215497"
+    },
+    "alipanahi2015nbt": {
+      "authors": "Alipanahi, Babak; Delong, Andrew; Weirauch, Matthew T.; Frey, Brendan J.",
+      "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
+      "venue": "Nature Biotechnology",
+      "year": 2015,
+      "volume": "33",
+      "pages": "831-838",
+      "doi": "10.1038/nbt.3300",
+      "pmid": "26213851"
+    },
+    "barrera2016science": {
+      "authors": "Barrera, Luis A.; Vedenko, Anastasia; Kurland, Jesse V.; Rogers, Joshua M.; Gisselbrecht, Stephen S.; Rossin, Elizabeth J.; Bulyk, Martha L.",
+      "title": "Survey of Variation in Human Transcription Factors Reveals Prevalent DNA Binding Changes",
+      "venue": "Science",
+      "year": 2016,
+      "volume": "351",
+      "issue": "6280",
+      "pages": "1450-1454",
+      "doi": "10.1126/science.aad2257",
+      "pmid": "27013728"
+    },
+    "lambert2018cell": {
+      "authors": "Lambert, Samuel A.; Jolma, Arttu; Campitelli, Laura F.; Das, Pratyush K.; Yin, Yimeng; Albu, Mihai; Chen, Xiaoting; Taipale, Jussi; Hughes, Timothy R.; Weirauch, Matthew T.",
+      "title": "The Human Transcription Factors",
+      "venue": "Cell",
+      "year": 2018,
+      "volume": "172",
+      "issue": "4",
+      "pages": "650-665",
+      "doi": "10.1016/j.cell.2018.01.029",
+      "pmid": "29425488"
+    },
+    "wetzel2022genome": {
+      "authors": "Wetzel, Joshua L.; Zhang, Kaiqi; Singh, Mona",
+      "title": "Learning probabilistic protein-DNA recognition codes from DNA-binding specificities using structural mappings",
+      "venue": "Genome Research",
+      "year": 2022,
+      "doi": "10.1101/gr.276606.122",
+      "pmid": "36167623"
+    },
+    "stormo2000bioinf": {
+      "authors": "Stormo, Gary D.",
+      "title": "DNA binding sites: representation and discovery",
+      "venue": "Bioinformatics",
+      "year": 2000,
+      "volume": "16",
+      "issue": "1",
+      "pages": "16-23",
+      "doi": "10.1093/bioinformatics/16.1.16",
+      "pmid": "10812473"
+    },
+    "candes2018jrssb": {
+      "authors": "Candès, Emmanuel; Fan, Yingying; Janson, Lucas; Lv, Jinchi",
+      "title": "Panning for Gold: Model-X Knockoffs for High Dimensional Controlled Variable Selection",
+      "venue": "Journal of the Royal Statistical Society Series B",
+      "year": 2018,
+      "doi": "10.1111/rssb.12265"
+    },
+    "berrett2020jrssb": {
+      "authors": "Berrett, Thomas B.; Wang, Yi; Barber, Rina Foygel; Samworth, Richard J.",
+      "title": "The conditional permutation test for independence while controlling for confounders",
+      "venue": "Journal of the Royal Statistical Society Series B",
+      "year": 2020,
+      "volume": "82",
+      "issue": "1",
+      "pages": "175-197",
+      "doi": "10.1111/rssb.12340"
+    },
+    "phipson2010sagmb": {
+      "authors": "Phipson, Belinda; Smyth, Gordon K.",
+      "title": "Permutation P-values Should Never Be Zero: Calculating Exact P-values When Permutations Are Randomly Drawn",
+      "venue": "Statistical Applications in Genetics and Molecular Biology",
+      "year": 2010,
+      "doi": "10.2202/1544-6115.1585",
+      "pmid": "21044043"
+    },
+    "holm1979scand": {
+      "authors": "Holm, Sture",
+      "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+      "venue": "Scandinavian Journal of Statistics",
+      "year": 1979,
+      "doi": "10.2307/4615733"
+    },
+    "benjamini1995jrssb": {
+      "authors": "Benjamini, Yoav; Hochberg, Yosef",
+      "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+      "venue": "Journal of the Royal Statistical Society Series B",
+      "year": 1995,
+      "doi": "10.1111/j.2517-6161.1995.tb02031.x"
+    },
+    "cameron2008restat": {
+      "authors": "Cameron, A. Colin; Gelbach, Jonah B.; Miller, Douglas L.",
+      "title": "Bootstrap-Based Improvements for Inference with Clustered Errors",
+      "venue": "The Review of Economics and Statistics",
+      "year": 2008,
+      "doi": "10.1162/rest.90.3.414"
+    },
+    "efron1993boot": {
+      "authors": "Efron, Bradley; Tibshirani, Robert J.",
+      "title": "An Introduction to the Bootstrap",
+      "venue": "Chapman & Hall / CRC Press",
+      "year": 1993,
+      "doi": "10.1007/978-1-4899-4541-9"
+    },
+    "santalucia1998pnas": {
+      "authors": "SantaLucia, John Jr.",
+      "title": "A unified view of polymer, dumbbell, and oligonucleotide DNA nearest-neighbor thermodynamics",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "year": 1998,
+      "doi": "10.1073/pnas.95.4.1460",
+      "pmid": "9465037"
+    },
+    "hoerl1970tech": {
+      "authors": "Hoerl, Arthur E.; Kennard, Robert W.",
+      "title": "Ridge Regression: Biased Estimation for Nonorthogonal Problems",
+      "venue": "Technometrics",
+      "year": 1970,
+      "doi": "10.1080/00401706.1970.10488634"
+    },
+    "strobl2007bmc": {
+      "authors": "Strobl, Carolin; Boulesteix, Anne-Laure; Zeileis, Achim; Hothorn, Torsten",
+      "title": "Bias in random forest variable importance measures: illustrations, sources and a solution",
+      "venue": "BMC Bioinformatics",
+      "year": 2007,
+      "doi": "10.1186/1471-2105-8-25",
+      "pmid": "17254353"
+    },
+    "ke2017lightgbm": {
+      "authors": "Ke, Guolin; Meng, Qi; Finley, Thomas; Wang, Taifeng; Chen, Wei; Ma, Weidong; Ye, Qiwei; Liu, Tie-Yan",
+      "title": "LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+      "venue": "Advances in Neural Information Processing Systems",
+      "year": 2017,
+      "volume": "30",
+      "pages": "3146-3154",
+      "url": "https://proceedings.neurips.cc/paper/2017/hash/6449f44a102fde8482d9bddf69b30b7c-Abstract.html"
+    },
+    "friedman2001aos": {
+      "authors": "Friedman, Jerome H.",
+      "title": "Greedy function approximation: A gradient boosting machine",
+      "venue": "The Annals of Statistics",
+      "year": 2001,
+      "doi": "10.1214/aos/1013203451"
+    },
+    "pedregosa2011jmlr": {
+      "authors": "Pedregosa, Fabian; Varoquaux, Gaël; Gramfort, Alexandre; Michel, Vincent; Thirion, Bertrand; Grisel, Olivier; Blondel, Mathieu; Prettenhofer, Peter; Weiss, Ron; Dubourg, Vincent; Vanderplas, Jake; Passos, Alexandre; Cournapeau, David; Brucher, Matthieu; Perrot, Matthieu; Duchesnay, Édouard",
+      "title": "Scikit-learn: Machine Learning in Python",
+      "venue": "Journal of Machine Learning Research",
+      "year": 2011,
+      "volume": "12",
+      "pages": "2825-2830",
+      "doi": "10.48550/arXiv.1201.0490"
+    }
+  }
+}

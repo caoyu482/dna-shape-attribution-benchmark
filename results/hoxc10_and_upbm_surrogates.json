@@ -1,0 +1,1944 @@
+{
+  "stage": "v7_1_scholarpeer_sprint_addendum",
+  "exp1_gene_balanced_and_hoxc10_sensitivity": {
+    "exp1a_dz_spec_f70_B49": {
+      "hoxc10_alleles": [
+        "HOXC10-K271E"
+      ],
+      "hoxc10_per_allele": {
+        "HOXC10-K271E": {
+          "seq_only": -0.05852289487021644,
+          "true": 0.3773606174675857,
+          "shiftgc_median": 0.22996536636591647,
+          "k12_median": 0.261683863012139
+        }
+      },
+      "all_genes_30": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "all_92": {
+            "n_genes": 30,
+            "n_mutants": 92,
+            "gene_balanced": {
+              "seq_only": 0.09995656120364435,
+              "true": 0.12125368105245678,
+              "null_median": 0.11150468526650019,
+              "delta_true_vs_null": 0.009748995785956588,
+              "p_mc": 0.08
+            },
+            "mutant_weighted": {
+              "seq_only": 0.11156916930541809,
+              "true": 0.11904340691159283,
+              "null_median": 0.11062822679855486,
+              "delta_true_vs_null": 0.008415180113037976,
+              "p_mc": 0.1
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 12,
+            "n_mutants": 18,
+            "gene_balanced": {
+              "seq_only": 0.08728106316734081,
+              "true": 0.13980875945360047,
+              "null_median": 0.12076805461579843,
+              "delta_true_vs_null": 0.01904070483780204,
+              "p_mc": 0.04,
+              "p_holm_6strata": 0.2
+            },
+            "mutant_weighted": {
+              "seq_only": 0.0980682383590518,
+              "true": 0.13504587723947956,
+              "null_median": 0.12066004180481779,
+              "delta_true_vs_null": 0.014385835434661765,
+              "p_mc": 0.02,
+              "p_holm_6strata": 0.12
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.10706717509022012,
+              "true": 0.10654753543109896,
+              "null_median": 0.10656946336377167,
+              "delta_true_vs_null": -2.1927932672707873e-05,
+              "p_mc": 0.54,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1125503263717514,
+              "true": 0.11148195262874967,
+              "null_median": 0.10678817798004497,
+              "delta_true_vs_null": 0.004693774648704699,
+              "p_mc": 0.18,
+              "p_holm_6strata": 0.72
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.11430967539661487,
+              "true": 0.11781479604569625,
+              "null_median": 0.11385490138315336,
+              "delta_true_vs_null": 0.003959894662542887,
+              "p_mc": 0.28,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1188618498578969,
+              "true": 0.12153762488906199,
+              "null_median": 0.11516571176577448,
+              "delta_true_vs_null": 0.006371913123287512,
+              "p_mc": 0.18,
+              "p_holm_6strata": 0.72
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 16,
+            "n_mutants": 28,
+            "gene_balanced": {
+              "seq_only": 0.0909689666811842,
+              "true": 0.12286464811934322,
+              "null_median": 0.09929590272078023,
+              "delta_true_vs_null": 0.02356874539856299,
+              "p_mc": 0.02,
+              "p_holm_6strata": 0.12
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12114238453735612,
+              "true": 0.14521253419389699,
+              "null_median": 0.1203024125542195,
+              "delta_true_vs_null": 0.024910121639677485,
+              "p_mc": 0.02,
+              "p_holm_6strata": 0.12
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.15042406225913268,
+              "true": 0.16135965818598444,
+              "null_median": 0.15963570298687146,
+              "delta_true_vs_null": 0.0017239551991129753,
+              "p_mc": 0.42,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1528486635287131,
+              "true": 0.15856723460126937,
+              "null_median": 0.15744406645564124,
+              "delta_true_vs_null": 0.0011231681456281284,
+              "p_mc": 0.42,
+              "p_holm_6strata": 0.84
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.06423309075690045,
+              "true": 0.06405355803042197,
+              "null_median": 0.0656692462133647,
+              "delta_true_vs_null": -0.0016156881829427344,
+              "p_mc": 0.68,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.0646687345352238,
+              "true": 0.059710854721153755,
+              "null_median": 0.06097915420095463,
+              "delta_true_vs_null": -0.0012682994798008732,
+              "p_mc": 0.62,
+              "p_holm_6strata": 0.84
+            }
+          }
+        },
+        "Sparse4mer_K12": {
+          "all_92": {
+            "n_genes": 30,
+            "n_mutants": 92,
+            "gene_balanced": {
+              "seq_only": 0.09995656120364435,
+              "true": 0.12125368105245678,
+              "null_median": 0.11228062962416824,
+              "delta_true_vs_null": 0.00897305142828854,
+              "p_mc": 0.02
+            },
+            "mutant_weighted": {
+              "seq_only": 0.11156916930541809,
+              "true": 0.11904340691159283,
+              "null_median": 0.1112935424634977,
+              "delta_true_vs_null": 0.0077498644480951395,
+              "p_mc": 0.02
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 12,
+            "n_mutants": 18,
+            "gene_balanced": {
+              "seq_only": 0.08728106316734081,
+              "true": 0.13980875945360047,
+              "null_median": 0.11957919378659042,
+              "delta_true_vs_null": 0.02022956566701005,
+              "p_mc": 0.02,
+              "p_holm_6strata": 0.12
+            },
+            "mutant_weighted": {
+              "seq_only": 0.0980682383590518,
+              "true": 0.13504587723947956,
+              "null_median": 0.1192329215960745,
+              "delta_true_vs_null": 0.015812955643405055,
+              "p_mc": 0.04,
+              "p_holm_6strata": 0.2
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.10706717509022012,
+              "true": 0.10654753543109896,
+              "null_median": 0.10462349084032,
+              "delta_true_vs_null": 0.0019240445907789672,
+              "p_mc": 0.34,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1125503263717514,
+              "true": 0.11148195262874967,
+              "null_median": 0.1044358706487141,
+              "delta_true_vs_null": 0.007046081980035576,
+              "p_mc": 0.16,
+              "p_holm_6strata": 0.64
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.11430967539661487,
+              "true": 0.11781479604569625,
+              "null_median": 0.1133741848128572,
+              "delta_true_vs_null": 0.004440611232839051,
+              "p_mc": 0.34,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1188618498578969,
+              "true": 0.12153762488906199,
+              "null_median": 0.11505693062336268,
+              "delta_true_vs_null": 0.006480694265699305,
+              "p_mc": 0.26,
+              "p_holm_6strata": 0.78
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 16,
+            "n_mutants": 28,
+            "gene_balanced": {
+              "seq_only": 0.0909689666811842,
+              "true": 0.12286464811934322,
+              "null_median": 0.1009424891261773,
+              "delta_true_vs_null": 0.02192215899316592,
+              "p_mc": 0.02,
+              "p_holm_6strata": 0.12
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12114238453735612,
+              "true": 0.14521253419389699,
+              "null_median": 0.1223287850356813,
+              "delta_true_vs_null": 0.022883749158215685,
+              "p_mc": 0.02,
+              "p_holm_6strata": 0.12
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.15042406225913268,
+              "true": 0.16135965818598444,
+              "null_median": 0.15673405049034114,
+              "delta_true_vs_null": 0.004625607695643297,
+              "p_mc": 0.36,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1528486635287131,
+              "true": 0.15856723460126937,
+              "null_median": 0.15516329561522574,
+              "delta_true_vs_null": 0.003403938986043631,
+              "p_mc": 0.32,
+              "p_holm_6strata": 0.78
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.06423309075690045,
+              "true": 0.06405355803042197,
+              "null_median": 0.06519299181055747,
+              "delta_true_vs_null": -0.001139433780135507,
+              "p_mc": 0.52,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.0646687345352238,
+              "true": 0.059710854721153755,
+              "null_median": 0.06019374585133445,
+              "delta_true_vs_null": -0.0004828911301806918,
+              "p_mc": 0.52,
+              "p_holm_6strata": 0.78
+            }
+          }
+        }
+      },
+      "excl_HOXC10_29": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "all_92": {
+            "n_genes": 29,
+            "n_mutants": 91,
+            "gene_balanced": {
+              "seq_only": 0.1054213700337775,
+              "true": 0.11242240738296957,
+              "null_median": 0.10707888678173816,
+              "delta_true_vs_null": 0.005343520601231416,
+              "p_mc": 0.18
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1134383128677877,
+              "true": 0.11620475624614236,
+              "null_median": 0.10984281762308104,
+              "delta_true_vs_null": 0.006361938623061322,
+              "p_mc": 0.12
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 11,
+            "n_mutants": 17,
+            "gene_balanced": {
+              "seq_only": 0.10053596844348238,
+              "true": 0.11821313599778364,
+              "null_median": 0.10991827354303091,
+              "delta_true_vs_null": 0.008294862454752736,
+              "p_mc": 0.16,
+              "p_holm_6strata": 0.8
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10727948149018524,
+              "true": 0.12079206899076743,
+              "null_median": 0.11452701345727194,
+              "delta_true_vs_null": 0.006265055533495489,
+              "p_mc": 0.14,
+              "p_holm_6strata": 0.7000000000000001
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.10706717509022012,
+              "true": 0.10654753543109896,
+              "null_median": 0.10656946336377167,
+              "delta_true_vs_null": -2.1927932672707873e-05,
+              "p_mc": 0.54,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1125503263717514,
+              "true": 0.11148195262874967,
+              "null_median": 0.10678817798004497,
+              "delta_true_vs_null": 0.004693774648704699,
+              "p_mc": 0.18,
+              "p_holm_6strata": 0.72
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.11430967539661487,
+              "true": 0.11781479604569625,
+              "null_median": 0.11385490138315336,
+              "delta_true_vs_null": 0.003959894662542887,
+              "p_mc": 0.28,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1188618498578969,
+              "true": 0.12153762488906199,
+              "null_median": 0.11516571176577448,
+              "delta_true_vs_null": 0.006371913123287512,
+              "p_mc": 0.18,
+              "p_holm_6strata": 0.72
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.10093509078461091,
+              "true": 0.10589825016279374,
+              "null_median": 0.09173883736525888,
+              "delta_true_vs_null": 0.014159412797534854,
+              "p_mc": 0.08,
+              "p_holm_6strata": 0.48
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12779665414504401,
+              "true": 0.13661445703561223,
+              "null_median": 0.11648661863180608,
+              "delta_true_vs_null": 0.02012783840380615,
+              "p_mc": 0.02,
+              "p_holm_6strata": 0.12
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.15042406225913268,
+              "true": 0.16135965818598444,
+              "null_median": 0.15963570298687146,
+              "delta_true_vs_null": 0.0017239551991129753,
+              "p_mc": 0.42,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1528486635287131,
+              "true": 0.15856723460126937,
+              "null_median": 0.15744406645564124,
+              "delta_true_vs_null": 0.0011231681456281284,
+              "p_mc": 0.42,
+              "p_holm_6strata": 0.84
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.06423309075690045,
+              "true": 0.06405355803042197,
+              "null_median": 0.0656692462133647,
+              "delta_true_vs_null": -0.0016156881829427344,
+              "p_mc": 0.68,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.0646687345352238,
+              "true": 0.059710854721153755,
+              "null_median": 0.06097915420095463,
+              "delta_true_vs_null": -0.0012682994798008732,
+              "p_mc": 0.62,
+              "p_holm_6strata": 0.84
+            }
+          }
+        },
+        "Sparse4mer_K12": {
+          "all_92": {
+            "n_genes": 29,
+            "n_mutants": 91,
+            "gene_balanced": {
+              "seq_only": 0.1054213700337775,
+              "true": 0.11242240738296957,
+              "null_median": 0.10688778535147728,
+              "delta_true_vs_null": 0.005534622031492298,
+              "p_mc": 0.1
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1134383128677877,
+              "true": 0.11620475624614236,
+              "null_median": 0.10987560400685849,
+              "delta_true_vs_null": 0.006329152239283875,
+              "p_mc": 0.06
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 11,
+            "n_mutants": 17,
+            "gene_balanced": {
+              "seq_only": 0.10053596844348238,
+              "true": 0.11821313599778364,
+              "null_median": 0.10694129466511129,
+              "delta_true_vs_null": 0.011271841332672353,
+              "p_mc": 0.14,
+              "p_holm_6strata": 0.7000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10727948149018524,
+              "true": 0.12079206899076743,
+              "null_median": 0.11118424746587857,
+              "delta_true_vs_null": 0.009607821524888857,
+              "p_mc": 0.12,
+              "p_holm_6strata": 0.6
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.10706717509022012,
+              "true": 0.10654753543109896,
+              "null_median": 0.10462349084032,
+              "delta_true_vs_null": 0.0019240445907789672,
+              "p_mc": 0.34,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1125503263717514,
+              "true": 0.11148195262874967,
+              "null_median": 0.1044358706487141,
+              "delta_true_vs_null": 0.007046081980035576,
+              "p_mc": 0.16,
+              "p_holm_6strata": 0.64
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.11430967539661487,
+              "true": 0.11781479604569625,
+              "null_median": 0.1133741848128572,
+              "delta_true_vs_null": 0.004440611232839051,
+              "p_mc": 0.34,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1188618498578969,
+              "true": 0.12153762488906199,
+              "null_median": 0.11505693062336268,
+              "delta_true_vs_null": 0.006480694265699305,
+              "p_mc": 0.26,
+              "p_holm_6strata": 0.78
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.10093509078461091,
+              "true": 0.10589825016279374,
+              "null_median": 0.08911302918588788,
+              "delta_true_vs_null": 0.01678522097690585,
+              "p_mc": 0.08,
+              "p_holm_6strata": 0.48
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12779665414504401,
+              "true": 0.13661445703561223,
+              "null_median": 0.11617842952248136,
+              "delta_true_vs_null": 0.020436027513130867,
+              "p_mc": 0.06,
+              "p_holm_6strata": 0.36
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.15042406225913268,
+              "true": 0.16135965818598444,
+              "null_median": 0.15673405049034114,
+              "delta_true_vs_null": 0.004625607695643297,
+              "p_mc": 0.36,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1528486635287131,
+              "true": 0.15856723460126937,
+              "null_median": 0.15516329561522574,
+              "delta_true_vs_null": 0.003403938986043631,
+              "p_mc": 0.32,
+              "p_holm_6strata": 0.78
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.06423309075690045,
+              "true": 0.06405355803042197,
+              "null_median": 0.06519299181055747,
+              "delta_true_vs_null": -0.001139433780135507,
+              "p_mc": 0.52,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.0646687345352238,
+              "true": 0.059710854721153755,
+              "null_median": 0.06019374585133445,
+              "delta_true_vs_null": -0.0004828911301806918,
+              "p_mc": 0.52,
+              "p_holm_6strata": 0.78
+            }
+          }
+        }
+      }
+    },
+    "exp1b_dz_spec_f70_B9": {
+      "hoxc10_alleles": [
+        "HOXC10-K271E"
+      ],
+      "hoxc10_per_allele": {
+        "HOXC10-K271E": {
+          "seq_only": 0.41592979927892304,
+          "true": 0.40688894344532067,
+          "shiftgc_median": 0.3757407501301186,
+          "k12_median": 0.4117276249677672
+        }
+      },
+      "all_genes_30": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "all_92": {
+            "n_genes": 30,
+            "n_mutants": 92,
+            "gene_balanced": {
+              "seq_only": 0.12676910294719063,
+              "true": 0.14293410785443553,
+              "null_median": 0.13753516255476347,
+              "delta_true_vs_null": 0.005398945299672053,
+              "p_mc": 0.1
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12592476039971606,
+              "true": 0.13917588890775914,
+              "null_median": 0.13355702657325416,
+              "delta_true_vs_null": 0.0056188623345049815,
+              "p_mc": 0.2
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 12,
+            "n_mutants": 18,
+            "gene_balanced": {
+              "seq_only": 0.15727942435282363,
+              "true": 0.16846720148143937,
+              "null_median": 0.16540946931775435,
+              "delta_true_vs_null": 0.0030577321636850174,
+              "p_mc": 0.5,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.14993085756956365,
+              "true": 0.16405060665234328,
+              "null_median": 0.16339505500433282,
+              "delta_true_vs_null": 0.0006555516480104551,
+              "p_mc": 0.5,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.11676276151275014,
+              "true": 0.13376882890714167,
+              "null_median": 0.1236373152694809,
+              "delta_true_vs_null": 0.01013151363766078,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.11772988227873521,
+              "true": 0.13342940533590392,
+              "null_median": 0.12309062849602914,
+              "delta_true_vs_null": 0.010338776839874775,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.10881944180640409,
+              "true": 0.13030860292647564,
+              "null_median": 0.1265664574647894,
+              "delta_true_vs_null": 0.003742145461686247,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1241858538304139,
+              "true": 0.13259588181422877,
+              "null_median": 0.12886947775868748,
+              "delta_true_vs_null": 0.0037264040555412825,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 16,
+            "n_mutants": 28,
+            "gene_balanced": {
+              "seq_only": 0.1399260427062687,
+              "true": 0.14735778798013807,
+              "null_median": 0.13435059295777757,
+              "delta_true_vs_null": 0.013007195022360502,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1600942205989863,
+              "true": 0.17395232196407115,
+              "null_median": 0.16331727223488923,
+              "delta_true_vs_null": 0.010635049729181917,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.15783474761807825,
+              "true": 0.18462640391842536,
+              "null_median": 0.18465706524159362,
+              "delta_true_vs_null": -3.0661323168257315e-05,
+              "p_mc": 0.6,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.16418900827779828,
+              "true": 0.1834580567128151,
+              "null_median": 0.1822595511825584,
+              "delta_true_vs_null": 0.0011985055302566883,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.0632706079922631,
+              "true": 0.07456842698382266,
+              "null_median": 0.07086432356074512,
+              "delta_true_vs_null": 0.0037041034230775316,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.060987288587591316,
+              "true": 0.0680702123158357,
+              "null_median": 0.06360263646024024,
+              "delta_true_vs_null": 0.004467575855595457,
+              "p_mc": 0.5,
+              "p_holm_6strata": 1.0
+            }
+          }
+        },
+        "Sparse4mer_K12": {
+          "all_92": {
+            "n_genes": 30,
+            "n_mutants": 92,
+            "gene_balanced": {
+              "seq_only": 0.12676910294719063,
+              "true": 0.14293410785443553,
+              "null_median": 0.1373580740087682,
+              "delta_true_vs_null": 0.005576033845667322,
+              "p_mc": 0.1
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12592476039971606,
+              "true": 0.13917588890775914,
+              "null_median": 0.1322069691730832,
+              "delta_true_vs_null": 0.006968919734675949,
+              "p_mc": 0.1
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 12,
+            "n_mutants": 18,
+            "gene_balanced": {
+              "seq_only": 0.15727942435282363,
+              "true": 0.16846720148143937,
+              "null_median": 0.16503768155602658,
+              "delta_true_vs_null": 0.003429519925412794,
+              "p_mc": 0.5,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.14993085756956365,
+              "true": 0.16405060665234328,
+              "null_median": 0.16172006283654483,
+              "delta_true_vs_null": 0.002330543815798447,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.11676276151275014,
+              "true": 0.13376882890714167,
+              "null_median": 0.125672660423153,
+              "delta_true_vs_null": 0.00809616848398867,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.11772988227873521,
+              "true": 0.13342940533590392,
+              "null_median": 0.124449741851758,
+              "delta_true_vs_null": 0.008979663484145917,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.10881944180640409,
+              "true": 0.13030860292647564,
+              "null_median": 0.12453952845229997,
+              "delta_true_vs_null": 0.00576907447417567,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1241858538304139,
+              "true": 0.13259588181422877,
+              "null_median": 0.1262928551487731,
+              "delta_true_vs_null": 0.00630302666545568,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 16,
+            "n_mutants": 28,
+            "gene_balanced": {
+              "seq_only": 0.1399260427062687,
+              "true": 0.14735778798013807,
+              "null_median": 0.13470141816041858,
+              "delta_true_vs_null": 0.012656369819719487,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1600942205989863,
+              "true": 0.17395232196407115,
+              "null_median": 0.1546013996763145,
+              "delta_true_vs_null": 0.019350922287756644,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.15783474761807825,
+              "true": 0.18462640391842536,
+              "null_median": 0.1838658680369098,
+              "delta_true_vs_null": 0.0007605358815155616,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.16418900827779828,
+              "true": 0.1834580567128151,
+              "null_median": 0.18301369332026182,
+              "delta_true_vs_null": 0.00044436339255327084,
+              "p_mc": 0.5,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.0632706079922631,
+              "true": 0.07456842698382266,
+              "null_median": 0.07193898509378376,
+              "delta_true_vs_null": 0.0026294418900389,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.060987288587591316,
+              "true": 0.0680702123158357,
+              "null_median": 0.06648312533750438,
+              "delta_true_vs_null": 0.0015870869783313202,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            }
+          }
+        }
+      },
+      "excl_HOXC10_29": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "all_92": {
+            "n_genes": 29,
+            "n_mutants": 91,
+            "gene_balanced": {
+              "seq_only": 0.11679804445299298,
+              "true": 0.1338322169719912,
+              "null_median": 0.1293532922805275,
+              "delta_true_vs_null": 0.004478924691463715,
+              "p_mc": 0.1
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12273789184060391,
+              "true": 0.13623398720954416,
+              "null_median": 0.1311927238652677,
+              "delta_true_vs_null": 0.005041263344276459,
+              "p_mc": 0.2
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 11,
+            "n_mutants": 17,
+            "gene_balanced": {
+              "seq_only": 0.13376575390499643,
+              "true": 0.14679249766654107,
+              "null_median": 0.14799691400749793,
+              "delta_true_vs_null": -0.0012044163409568598,
+              "p_mc": 0.8,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.13428386099842488,
+              "true": 0.14976599860569756,
+              "null_median": 0.1509843444089773,
+              "delta_true_vs_null": -0.00121834580327973,
+              "p_mc": 0.6,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.11676276151275014,
+              "true": 0.13376882890714167,
+              "null_median": 0.1236373152694809,
+              "delta_true_vs_null": 0.01013151363766078,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.11772988227873521,
+              "true": 0.13342940533590392,
+              "null_median": 0.12309062849602914,
+              "delta_true_vs_null": 0.010338776839874775,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.10881944180640409,
+              "true": 0.13030860292647564,
+              "null_median": 0.1265664574647894,
+              "delta_true_vs_null": 0.003742145461686247,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1241858538304139,
+              "true": 0.13259588181422877,
+              "null_median": 0.12886947775868748,
+              "delta_true_vs_null": 0.0037264040555412825,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.12152579226809174,
+              "true": 0.1300557109491259,
+              "null_median": 0.11874898898425261,
+              "delta_true_vs_null": 0.011306721964873298,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.15061882879602567,
+              "true": 0.16532503968698786,
+              "null_median": 0.15535064822444228,
+              "delta_true_vs_null": 0.009974391462545584,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.15783474761807825,
+              "true": 0.18462640391842536,
+              "null_median": 0.18465706524159362,
+              "delta_true_vs_null": -3.0661323168257315e-05,
+              "p_mc": 0.6,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.16418900827779828,
+              "true": 0.1834580567128151,
+              "null_median": 0.1822595511825584,
+              "delta_true_vs_null": 0.0011985055302566883,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.0632706079922631,
+              "true": 0.07456842698382266,
+              "null_median": 0.07086432356074512,
+              "delta_true_vs_null": 0.0037041034230775316,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.060987288587591316,
+              "true": 0.0680702123158357,
+              "null_median": 0.06360263646024024,
+              "delta_true_vs_null": 0.004467575855595457,
+              "p_mc": 0.5,
+              "p_holm_6strata": 1.0
+            }
+          }
+        },
+        "Sparse4mer_K12": {
+          "all_92": {
+            "n_genes": 29,
+            "n_mutants": 91,
+            "gene_balanced": {
+              "seq_only": 0.11679804445299298,
+              "true": 0.1338322169719912,
+              "null_median": 0.1274940247303323,
+              "delta_true_vs_null": 0.006338192241658908,
+              "p_mc": 0.2
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12273789184060391,
+              "true": 0.13623398720954416,
+              "null_median": 0.1290235047190103,
+              "delta_true_vs_null": 0.007210482490533854,
+              "p_mc": 0.2
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 11,
+            "n_mutants": 17,
+            "gene_balanced": {
+              "seq_only": 0.13376575390499643,
+              "true": 0.14679249766654107,
+              "null_median": 0.14820520703599713,
+              "delta_true_vs_null": -0.001412709369456061,
+              "p_mc": 0.6,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.13428386099842488,
+              "true": 0.14976599860569756,
+              "null_median": 0.14868442697178158,
+              "delta_true_vs_null": 0.0010815716339159787,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.11676276151275014,
+              "true": 0.13376882890714167,
+              "null_median": 0.125672660423153,
+              "delta_true_vs_null": 0.00809616848398867,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.11772988227873521,
+              "true": 0.13342940533590392,
+              "null_median": 0.124449741851758,
+              "delta_true_vs_null": 0.008979663484145917,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.10881944180640409,
+              "true": 0.13030860292647564,
+              "null_median": 0.12453952845229997,
+              "delta_true_vs_null": 0.00576907447417567,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.1241858538304139,
+              "true": 0.13259588181422877,
+              "null_median": 0.1262928551487731,
+              "delta_true_vs_null": 0.00630302666545568,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.12152579226809174,
+              "true": 0.1300557109491259,
+              "null_median": 0.11666568042265991,
+              "delta_true_vs_null": 0.013390030526465993,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.15061882879602567,
+              "true": 0.16532503968698786,
+              "null_median": 0.14474598014061757,
+              "delta_true_vs_null": 0.020579059546370293,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.15783474761807825,
+              "true": 0.18462640391842536,
+              "null_median": 0.1838658680369098,
+              "delta_true_vs_null": 0.0007605358815155616,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.16418900827779828,
+              "true": 0.1834580567128151,
+              "null_median": 0.18301369332026182,
+              "delta_true_vs_null": 0.00044436339255327084,
+              "p_mc": 0.5,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.0632706079922631,
+              "true": 0.07456842698382266,
+              "null_median": 0.07193898509378376,
+              "delta_true_vs_null": 0.0026294418900389,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.060987288587591316,
+              "true": 0.0680702123158357,
+              "null_median": 0.06648312533750438,
+              "delta_true_vs_null": 0.0015870869783313202,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            }
+          }
+        }
+      }
+    },
+    "exp1b_dz_f70_B9": {
+      "hoxc10_alleles": [
+        "HOXC10-K271E"
+      ],
+      "hoxc10_per_allele": {
+        "HOXC10-K271E": {
+          "seq_only": 0.21597866120997722,
+          "true": 0.20826898198760022,
+          "shiftgc_median": 0.156805996244425,
+          "k12_median": 0.1303356340164603
+        }
+      },
+      "all_genes_30": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "all_92": {
+            "n_genes": 30,
+            "n_mutants": 92,
+            "gene_balanced": {
+              "seq_only": 0.10057538835657559,
+              "true": 0.1176611472668135,
+              "null_median": 0.10896522967702592,
+              "delta_true_vs_null": 0.008695917589787577,
+              "p_mc": 0.1
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10070586934478812,
+              "true": 0.1100510686278346,
+              "null_median": 0.10877436629087849,
+              "delta_true_vs_null": 0.0012767023369561203,
+              "p_mc": 0.4
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 12,
+            "n_mutants": 18,
+            "gene_balanced": {
+              "seq_only": 0.14406016334062158,
+              "true": 0.1552051210816067,
+              "null_median": 0.14213995142788732,
+              "delta_true_vs_null": 0.013065169653719372,
+              "p_mc": 0.2,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.13217441656632006,
+              "true": 0.15480147421869886,
+              "null_median": 0.14803921569307127,
+              "delta_true_vs_null": 0.00676225852562759,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.07807837719975698,
+              "true": 0.0921560659529792,
+              "null_median": 0.09549917532749616,
+              "delta_true_vs_null": -0.003343109374516956,
+              "p_mc": 0.7,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.08459361511363567,
+              "true": 0.09325737076743616,
+              "null_median": 0.09488769012411608,
+              "delta_true_vs_null": -0.001630319356679913,
+              "p_mc": 0.7,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.12475034992267983,
+              "true": 0.14254112899734928,
+              "null_median": 0.12909552656127646,
+              "delta_true_vs_null": 0.013445602436072818,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10777409522910636,
+              "true": 0.10945093895387795,
+              "null_median": 0.10783872541547043,
+              "delta_true_vs_null": 0.0016122135384075142,
+              "p_mc": 0.5,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 16,
+            "n_mutants": 28,
+            "gene_balanced": {
+              "seq_only": 0.08671210719361541,
+              "true": 0.08304308300156835,
+              "null_median": 0.07297961808199034,
+              "delta_true_vs_null": 0.010063464919578005,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10677168745800762,
+              "true": 0.0988750476717541,
+              "null_median": 0.09227898769009557,
+              "delta_true_vs_null": 0.006596059981658534,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.18635521107276612,
+              "true": 0.22305742320444433,
+              "null_median": 0.20605409182197149,
+              "delta_true_vs_null": 0.01700333138247284,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.151419276628759,
+              "true": 0.18595439020912097,
+              "null_median": 0.17784769324566396,
+              "delta_true_vs_null": 0.008106696963457005,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.040781136881249354,
+              "true": 0.04460143425229714,
+              "null_median": 0.05673479188279069,
+              "delta_true_vs_null": -0.01213335763049355,
+              "p_mc": 0.9,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.04791924713347774,
+              "true": 0.04823063280208846,
+              "null_median": 0.057060100686287946,
+              "delta_true_vs_null": -0.008829467884199485,
+              "p_mc": 1.0,
+              "p_holm_6strata": 1.0
+            }
+          }
+        },
+        "Sparse4mer_K12": {
+          "all_92": {
+            "n_genes": 30,
+            "n_mutants": 92,
+            "gene_balanced": {
+              "seq_only": 0.10057538835657559,
+              "true": 0.1176611472668135,
+              "null_median": 0.10982806165678734,
+              "delta_true_vs_null": 0.007833085610026158,
+              "p_mc": 0.2
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10070586934478812,
+              "true": 0.1100510686278346,
+              "null_median": 0.11102432596255173,
+              "delta_true_vs_null": -0.0009732573347171203,
+              "p_mc": 0.7
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 12,
+            "n_mutants": 18,
+            "gene_balanced": {
+              "seq_only": 0.14406016334062158,
+              "true": 0.1552051210816067,
+              "null_median": 0.14326517805155947,
+              "delta_true_vs_null": 0.011939943030047223,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.13217441656632006,
+              "true": 0.15480147421869886,
+              "null_median": 0.1411320547186337,
+              "delta_true_vs_null": 0.013669419500065172,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.07807837719975698,
+              "true": 0.0921560659529792,
+              "null_median": 0.0990410471957665,
+              "delta_true_vs_null": -0.006884981242787289,
+              "p_mc": 0.6,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.08459361511363567,
+              "true": 0.09325737076743616,
+              "null_median": 0.10090652553731363,
+              "delta_true_vs_null": -0.0076491547698774726,
+              "p_mc": 0.7,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.12475034992267983,
+              "true": 0.14254112899734928,
+              "null_median": 0.13319070512431985,
+              "delta_true_vs_null": 0.009350423873029423,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10777409522910636,
+              "true": 0.10945093895387795,
+              "null_median": 0.11035502594168911,
+              "delta_true_vs_null": -0.0009040869878111646,
+              "p_mc": 0.6,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 16,
+            "n_mutants": 28,
+            "gene_balanced": {
+              "seq_only": 0.08671210719361541,
+              "true": 0.08304308300156835,
+              "null_median": 0.0860707133300764,
+              "delta_true_vs_null": -0.0030276303285080575,
+              "p_mc": 0.7,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10677168745800762,
+              "true": 0.0988750476717541,
+              "null_median": 0.1027385220841519,
+              "delta_true_vs_null": -0.003863474412397802,
+              "p_mc": 0.8,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.18635521107276612,
+              "true": 0.22305742320444433,
+              "null_median": 0.20543917846918147,
+              "delta_true_vs_null": 0.017618244735262856,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.151419276628759,
+              "true": 0.18595439020912097,
+              "null_median": 0.172153092113973,
+              "delta_true_vs_null": 0.013801298095147962,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.040781136881249354,
+              "true": 0.04460143425229714,
+              "null_median": 0.05149659159390713,
+              "delta_true_vs_null": -0.006895157341609996,
+              "p_mc": 1.0,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.04791924713347774,
+              "true": 0.04823063280208846,
+              "null_median": 0.058653978529383,
+              "delta_true_vs_null": -0.010423345727294538,
+              "p_mc": 0.9,
+              "p_holm_6strata": 1.0
+            }
+          }
+        }
+      },
+      "excl_HOXC10_29": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "all_92": {
+            "n_genes": 29,
+            "n_mutants": 91,
+            "gene_balanced": {
+              "seq_only": 0.09659596515473416,
+              "true": 0.11453673917299326,
+              "null_median": 0.10696882324667009,
+              "delta_true_vs_null": 0.0075679159263231655,
+              "p_mc": 0.2
+            },
+            "mutant_weighted": {
+              "seq_only": 0.09943913536824761,
+              "true": 0.10897175089860642,
+              "null_median": 0.10815510715038779,
+              "delta_true_vs_null": 0.0008166437482186317,
+              "p_mc": 0.4
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 11,
+            "n_mutants": 17,
+            "gene_balanced": {
+              "seq_only": 0.13752211807977108,
+              "true": 0.15038113372651638,
+              "null_median": 0.1421707538724669,
+              "delta_true_vs_null": 0.008210379854049488,
+              "p_mc": 0.2,
+              "p_holm_6strata": 0.8
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12724475511669317,
+              "true": 0.15165632670288115,
+              "null_median": 0.14868868508710903,
+              "delta_true_vs_null": 0.002967641615772121,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.07807837719975698,
+              "true": 0.0921560659529792,
+              "null_median": 0.09549917532749616,
+              "delta_true_vs_null": -0.003343109374516956,
+              "p_mc": 0.7,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.08459361511363567,
+              "true": 0.09325737076743616,
+              "null_median": 0.09488769012411608,
+              "delta_true_vs_null": -0.001630319356679913,
+              "p_mc": 0.7,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.12475034992267983,
+              "true": 0.14254112899734928,
+              "null_median": 0.12909552656127646,
+              "delta_true_vs_null": 0.013445602436072818,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10777409522910636,
+              "true": 0.10945093895387795,
+              "null_median": 0.10783872541547043,
+              "delta_true_vs_null": 0.0016122135384075142,
+              "p_mc": 0.5,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.07809433692585796,
+              "true": 0.07469468973583289,
+              "null_median": 0.07224666904713133,
+              "delta_true_vs_null": 0.002448020688701563,
+              "p_mc": 0.3,
+              "p_holm_6strata": 0.8999999999999999
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10272698472645318,
+              "true": 0.09482342047487091,
+              "null_median": 0.08988909848437965,
+              "delta_true_vs_null": 0.004934321990491264,
+              "p_mc": 0.4,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.18635521107276612,
+              "true": 0.22305742320444433,
+              "null_median": 0.20605409182197149,
+              "delta_true_vs_null": 0.01700333138247284,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.151419276628759,
+              "true": 0.18595439020912097,
+              "null_median": 0.17784769324566396,
+              "delta_true_vs_null": 0.008106696963457005,
+              "p_mc": 0.3,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.040781136881249354,
+              "true": 0.04460143425229714,
+              "null_median": 0.05673479188279069,
+              "delta_true_vs_null": -0.01213335763049355,
+              "p_mc": 0.9,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.04791924713347774,
+              "true": 0.04823063280208846,
+              "null_median": 0.057060100686287946,
+              "delta_true_vs_null": -0.008829467884199485,
+              "p_mc": 1.0,
+              "p_holm_6strata": 1.0
+            }
+          }
+        },
+        "Sparse4mer_K12": {
+          "all_92": {
+            "n_genes": 29,
+            "n_mutants": 91,
+            "gene_balanced": {
+              "seq_only": 0.09659596515473416,
+              "true": 0.11453673917299326,
+              "null_median": 0.10890514703110077,
+              "delta_true_vs_null": 0.005631592141892489,
+              "p_mc": 0.2
+            },
+            "mutant_weighted": {
+              "seq_only": 0.09943913536824761,
+              "true": 0.10897175089860642,
+              "null_median": 0.11007615265219846,
+              "delta_true_vs_null": -0.0011044017535920408,
+              "p_mc": 0.7
+            }
+          },
+          "N_arm_1_9": {
+            "n_genes": 11,
+            "n_mutants": 17,
+            "gene_balanced": {
+              "seq_only": 0.13752211807977108,
+              "true": 0.15038113372651638,
+              "null_median": 0.1407023817250632,
+              "delta_true_vs_null": 0.009678752001453184,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.12724475511669317,
+              "true": 0.15165632670288115,
+              "null_median": 0.1441949156232859,
+              "delta_true_vs_null": 0.007461411079595248,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H1_H2_linkers": {
+            "n_genes": 20,
+            "n_mutants": 47,
+            "gene_balanced": {
+              "seq_only": 0.07807837719975698,
+              "true": 0.0921560659529792,
+              "null_median": 0.0990410471957665,
+              "delta_true_vs_null": -0.006884981242787289,
+              "p_mc": 0.6,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.08459361511363567,
+              "true": 0.09325737076743616,
+              "null_median": 0.10090652553731363,
+              "delta_true_vs_null": -0.0076491547698774726,
+              "p_mc": 0.7,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "H3_42_58": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.12475034992267983,
+              "true": 0.14254112899734928,
+              "null_median": 0.13319070512431985,
+              "delta_true_vs_null": 0.009350423873029423,
+              "p_mc": 0.1,
+              "p_holm_6strata": 0.6000000000000001
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10777409522910636,
+              "true": 0.10945093895387795,
+              "null_median": 0.11035502594168911,
+              "delta_true_vs_null": -0.0009040869878111646,
+              "p_mc": 0.6,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "specificity_yes": {
+            "n_genes": 15,
+            "n_mutants": 27,
+            "gene_balanced": {
+              "seq_only": 0.07809433692585796,
+              "true": 0.07469468973583289,
+              "null_median": 0.08242131598031927,
+              "delta_true_vs_null": -0.007726626244486376,
+              "p_mc": 0.6,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.10272698472645318,
+              "true": 0.09482342047487091,
+              "null_median": 0.09984893037848014,
+              "delta_true_vs_null": -0.0050255099036092266,
+              "p_mc": 0.8,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "affinity_only": {
+            "n_genes": 18,
+            "n_mutants": 31,
+            "gene_balanced": {
+              "seq_only": 0.18635521107276612,
+              "true": 0.22305742320444433,
+              "null_median": 0.20543917846918147,
+              "delta_true_vs_null": 0.017618244735262856,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.151419276628759,
+              "true": 0.18595439020912097,
+              "null_median": 0.172153092113973,
+              "delta_true_vs_null": 0.013801298095147962,
+              "p_mc": 0.2,
+              "p_holm_6strata": 1.0
+            }
+          },
+          "no_change": {
+            "n_genes": 17,
+            "n_mutants": 33,
+            "gene_balanced": {
+              "seq_only": 0.040781136881249354,
+              "true": 0.04460143425229714,
+              "null_median": 0.05149659159390713,
+              "delta_true_vs_null": -0.006895157341609996,
+              "p_mc": 1.0,
+              "p_holm_6strata": 1.0
+            },
+            "mutant_weighted": {
+              "seq_only": 0.04791924713347774,
+              "true": 0.04823063280208846,
+              "null_median": 0.058653978529383,
+              "delta_true_vs_null": -0.010423345727294538,
+              "p_mc": 0.9,
+              "p_holm_6strata": 1.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "gse97794_upbm_hgbdt_matched_surrogate_b49": {
+    "Max_uPBM": {
+      "name": "Max_uPBM",
+      "locked_cfg": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 25,
+        "l2_regularization": 3.0
+      },
+      "seq_only_spearman": 0.6966534734880104,
+      "true_spearman": 0.7062718771942663,
+      "lift_true_minus_seq": 0.009618403706255885,
+      "null_families": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "B": 49,
+          "null_median": 0.7025721287575826,
+          "null_q95": 0.7085902958395671,
+          "null_range": [
+            0.6946715242052319,
+            0.7111156215251435
+          ],
+          "delta_true_minus_median": 0.0036997484366837474,
+          "null_lift_over_seq_median": 0.005918655269572137,
+          "p_mc": 0.2,
+          "p_holm_across_5_upbm": 0.32
+        },
+        "Sparse4mer_K12": {
+          "B": 49,
+          "null_median": 0.70471996922617,
+          "null_q95": 0.707886202435105,
+          "null_range": [
+            0.6970645785468287,
+            0.7092100630812224
+          ],
+          "delta_true_minus_median": 0.0015519079680963443,
+          "null_lift_over_seq_median": 0.00806649573815954,
+          "p_mc": 0.22,
+          "p_holm_across_5_upbm": 0.44
+        }
+      },
+      "runtime_seconds": 75.30572366714478
+    },
+    "MadMax_uPBM": {
+      "name": "MadMax_uPBM",
+      "locked_cfg": {
+        "learning_rate": 0.08,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 25,
+        "l2_regularization": 3.0
+      },
+      "seq_only_spearman": 0.6550671780228572,
+      "true_spearman": 0.6588218400283811,
+      "lift_true_minus_seq": 0.003754662005523879,
+      "null_families": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "B": 49,
+          "null_median": 0.6529717713470917,
+          "null_q95": 0.6587951220407818,
+          "null_range": [
+            0.6447218046301798,
+            0.660311541638405
+          ],
+          "delta_true_minus_median": 0.005850068681289344,
+          "null_lift_over_seq_median": -0.0020954066757654655,
+          "p_mc": 0.08,
+          "p_holm_across_5_upbm": 0.32
+        },
+        "Sparse4mer_K12": {
+          "B": 49,
+          "null_median": 0.6522636679248535,
+          "null_q95": 0.6593979773575868,
+          "null_range": [
+            0.6425281960972148,
+            0.6613082106147385
+          ],
+          "delta_true_minus_median": 0.006558172103527604,
+          "null_lift_over_seq_median": -0.0028035100980037253,
+          "p_mc": 0.08,
+          "p_holm_across_5_upbm": 0.4
+        }
+      },
+      "runtime_seconds": 79.79458975791931
+    },
+    "MycMax_uPBM": {
+      "name": "MycMax_uPBM",
+      "locked_cfg": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 25,
+        "l2_regularization": 3.0
+      },
+      "seq_only_spearman": 0.6648191430753346,
+      "true_spearman": 0.6826592791464273,
+      "lift_true_minus_seq": 0.017840136071092694,
+      "null_families": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "B": 49,
+          "null_median": 0.6786158745756268,
+          "null_q95": 0.6831506469248996,
+          "null_range": [
+            0.6701772223396658,
+            0.6880430940755706
+          ],
+          "delta_true_minus_median": 0.004043404570800546,
+          "null_lift_over_seq_median": 0.013796731500292148,
+          "p_mc": 0.12,
+          "p_holm_across_5_upbm": 0.32
+        },
+        "Sparse4mer_K12": {
+          "B": 49,
+          "null_median": 0.6792965646818606,
+          "null_q95": 0.6842521222881256,
+          "null_range": [
+            0.6684448633249986,
+            0.6860555274402671
+          ],
+          "delta_true_minus_median": 0.0033627144645667073,
+          "null_lift_over_seq_median": 0.014477421606525986,
+          "p_mc": 0.24,
+          "p_holm_across_5_upbm": 0.44
+        }
+      },
+      "runtime_seconds": 80.38083148002625
+    },
+    "MycMax_minus_Max_uPBM": {
+      "name": "MycMax_minus_Max_uPBM",
+      "locked_cfg": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 25,
+        "l2_regularization": 3.0
+      },
+      "seq_only_spearman": 0.31772161715574876,
+      "true_spearman": 0.3232800908750389,
+      "lift_true_minus_seq": 0.005558473719290136,
+      "null_families": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "B": 49,
+          "null_median": 0.31270527034248596,
+          "null_q95": 0.31919943890009683,
+          "null_range": [
+            0.29815447247272264,
+            0.3256390210244311
+          ],
+          "delta_true_minus_median": 0.010574820532552931,
+          "null_lift_over_seq_median": -0.005016346813262795,
+          "p_mc": 0.06,
+          "p_holm_across_5_upbm": 0.3
+        },
+        "Sparse4mer_K12": {
+          "B": 49,
+          "null_median": 0.3146527917291027,
+          "null_q95": 0.3242365437858719,
+          "null_range": [
+            0.29914626772305436,
+            0.3274105224945475
+          ],
+          "delta_true_minus_median": 0.008627299145936185,
+          "null_lift_over_seq_median": -0.003068825426646049,
+          "p_mc": 0.08,
+          "p_holm_across_5_upbm": 0.4
+        }
+      },
+      "runtime_seconds": 58.40496039390564
+    },
+    "MadMax_minus_Max_uPBM": {
+      "name": "MadMax_minus_Max_uPBM",
+      "locked_cfg": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 25,
+        "l2_regularization": 3.0
+      },
+      "seq_only_spearman": 0.3210482134565287,
+      "true_spearman": 0.32800709194789923,
+      "lift_true_minus_seq": 0.006958878491370557,
+      "null_families": {
+        "ShiftGC_ExactCRT_WS_G2": {
+          "B": 49,
+          "null_median": 0.314432425052054,
+          "null_q95": 0.3279983613709276,
+          "null_range": [
+            0.29485663578392624,
+            0.3294379814350701
+          ],
+          "delta_true_minus_median": 0.013574666895845244,
+          "null_lift_over_seq_median": -0.006615788404474687,
+          "p_mc": 0.08,
+          "p_holm_across_5_upbm": 0.32
+        },
+        "Sparse4mer_K12": {
+          "B": 49,
+          "null_median": 0.31289626545852367,
+          "null_q95": 0.3285347295197717,
+          "null_range": [
+            0.30119678621426854,
+            0.3361331538459727
+          ],
+          "delta_true_minus_median": 0.015110826489375562,
+          "null_lift_over_seq_median": -0.008151947998005005,
+          "p_mc": 0.12,
+          "p_holm_across_5_upbm": 0.4
+        }
+      },
+      "runtime_seconds": 64.90127635002136
+    }
+  },
+  "runtime_seconds": 374.880202293396
+}
