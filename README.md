@@ -40,6 +40,7 @@ scripts/
   relabel_figures.py           Produces the publication figures in paper/figures/
   verify_results.py            Checks result files and figures
 results/                       Numerical results (JSON) and reference metadata
+analysis/                      Pipeline behind the tree-surrogate and Deep DNAshape results (see analysis/README.md)
 tests/
   test_core_invariants.py      Unit tests for surrogate and model invariants
 ```
